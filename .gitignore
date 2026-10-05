@@ -1,0 +1,74 @@
+# ── 日志 ──
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ── 依赖与构建产物 ──
+node_modules
+dist
+dist-ssr
+coverage
+*.local
+.npm-cache/
+
+# ── 编辑器 ──
+.vscode/*
+!.vscode/extensions.json
+frontend/.vscode/*
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tsbuildinfo
+.eslintcache
+
+# ── 环境变量：**绝不提交真实凭据** ──
+# 注意：.env.example 要提交（作为模板），真实 .env 一律忽略
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+# 例外：示例文件
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+frontend/.env.production.local
+
+# ── 后端运行时数据（含用户会话 / 数据库文件）──
+backend/data/sessions.json
+backend/data/sessions/
+backend/data/nfti.db.json
+backend/node_modules/
+
+# ── 证书与私钥：**绝不提交** ──
+# 历史上 ~/.ssh 曾被误提交，务必保持忽略
+**/.ssh/
+**/id_rsa
+**/id_ed25519
+**/id_ed25519.pub
+*.pem
+*.key
+!**/*.pub.example
+qq-root.crt
+backend/qq-root.crt
+
+# 误把家目录当相对路径提交的产物（历史事故，防复发）
+~/
+
+# ── 工具内部状态 ──
+.reasonix/
+.claude/
+
+# ── 一次性审查/调试脚本（不入库）──
+scripts/
+
+# ── 系统 ──
+.DS_Store
+Thumbs.db
+nul

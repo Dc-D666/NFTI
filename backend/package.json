@@ -1,0 +1,12 @@
+{
+  "name": "nfbti-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.22.5",
+    "tencent-channel-cli": "^1.0.6"
+  }
+}
