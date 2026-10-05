@@ -73,8 +73,8 @@ tencent-channel-cli login --json
     "expires_in_s": 289,
     "message": "请扫描二维码或打开授权链接完成登录，然后执行 tencent-channel-cli login poll-token --json 获取令牌",
     "qr_code": "iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQMAAABmvDol...",
-    "qrcode_path": "C:\\Users\\33031\\.qqcli\\login-qrcode.png",
-    "state_file": "C:\\Users\\33031\\.qqcli\\device_auth_state.json",
+    "qrcode_path": "C:\\Users\\<用户名>\\.qqcli\\login-qrcode.png",
+    "state_file": "C:\\Users\\<用户名>\\.qqcli\\device_auth_state.json",
     "status": "pending_authorization",
     "verification_uri": "https://connect.qq.com/open-platform/device-bind?device_code=..."
   },
